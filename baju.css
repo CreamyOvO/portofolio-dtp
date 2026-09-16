@@ -875,7 +875,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
     display: none;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 375px) {
     header {
         flex-direction: column;
         max-width: 440px;
