@@ -878,7 +878,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
 @media screen and (max-width: 376px) {
     header {
         flex-direction: column;
-        max-width: 375px;
+        max-width: 376px;
     }
     #gambar1 {
         width: 550px;
@@ -926,8 +926,8 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
     .burger {
         display: flex;
         border: none;
-        background-color: none;
-        width: 50px;
+        background: none;
+        width: 40px;
     }
     #seperate {
         width: 125%;
@@ -965,7 +965,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
         justify-content: flex-end;
         border: none;
         background: none;
-        width: 50px;
+        width: 40px;
     }
     #burgerm img {
         display: flex;
@@ -982,5 +982,71 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 281px) {
+    header {
+        flex-direction: column;
+        max-width: 281px;
+    }
+    #gambar1 {
+        width: 450px;
+        margin-top: 38px;
+    }
+    #judul h1{
+        font-size: 42px;
+        max-width: 60%;
+    }
+    #judul {
+        display: flex;
+        flex-direction: column;
+        top: 400px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: -140px;
+    }
+    #judul p {
+        font-size: 12px;
+        max-width: 50%;
+        justify-content: center;
+        margin-top: -20px;
+    }
+    #sparkle1 {
+        width: 150px;
+        left: 30px;
+    }
+    #sparkle2 {
+        width: 150px;
+        top: 300px;
+    }
+    #sparkle3 {
+        width: 150px;
+    }
+    .logo {
+        width: 120px;
+    }
+    body {
+        background-size: 200px;
+    }
+    #seperate {
+        width: 380px;
+        margin-top: 0;
+    }
+    #skill h3 {
+        font-size: 24px;
+    }
+    #cards {
+        transform: scale(0.4);
+        margin-top: -120px;
+    }
+    .burger {
+        width: 30px;
+    }
+    #navbarmobile {
+        left: 115px;
+        top: -200px;
+        transform: scale(0.8);
     }
 }
