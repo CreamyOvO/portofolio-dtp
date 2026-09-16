@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="baju.css">
 </head>
 <body>
+    <div id="debug-size"></div>
+
+<script>
+const debug = document.getElementById("debug-size");
+
+debug.textContent =
+    window.innerWidth + "px × " + window.innerHeight + "px";
+</script>
     <div id="loader">
         <div class="loader-top"></div>
         <div class="loader-bottom"></div>
