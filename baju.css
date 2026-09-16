@@ -985,18 +985,18 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 360px) {
     header {
         flex-direction: column;
-        max-width: 281px;
+        max-width: 360px;
     }
     #gambar1 {
-        width: 450px;
+        width: 490px;
         margin-top: 38px;
     }
     #judul h1{
-        font-size: 42px;
-        max-width: 60%;
+        font-size: 48px;
+        max-width: 80%;
     }
     #judul {
         display: flex;
@@ -1005,7 +1005,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
         justify-content: center;
         align-items: center;
         text-align: center;
-        left: -140px;
+        left: -110px;
     }
     #judul p {
         font-size: 12px;
@@ -1025,7 +1025,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
         width: 150px;
     }
     .logo {
-        width: 120px;
+        width: 200px;
     }
     body {
         background-size: 200px;
