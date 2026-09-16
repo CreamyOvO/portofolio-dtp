@@ -985,7 +985,7 @@ body.loaded nav, body.loaded #judul, body.loaded #gambar1 {
     }
 }
 
-@media (max-width: 281px) {
+@media (max-width: 300px) {
     header {
         flex-direction: column;
         max-width: 281px;
